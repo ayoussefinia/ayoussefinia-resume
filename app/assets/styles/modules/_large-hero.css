@@ -1,0 +1,33 @@
+.large-hero {
+  border-bottom: 10px solid black;
+    position: relative;
+    margin-bottom: 0;
+
+    &__image {
+    display: block;
+  }
+
+}
+
+.large-hero__text-content {
+ text-align: center;
+ color: white;
+ padding-top: 88px;
+ position: absolute;
+ top: 50%;
+ transform: translateY(-50%);
+ left: 0;
+ width: 100%;
+ font-size: 1rem;
+ font-weight: 900;
+}
+
+.large-hero__title {
+  font-size: 3em;
+  font-weight: 300;
+}
+
+.large-hero__subtitle {
+  font-size: 2em;
+  font-weight: 300;
+}

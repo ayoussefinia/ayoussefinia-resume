@@ -1,0 +1,24 @@
+@import "normalize.css";
+@import "base/_global";
+@import "modules/_large-hero";
+@import "modules/_profile__picture";
+@import "modules/_experience";
+
+
+
+
+
+
+  .experience-item {
+    display: inline-block;
+  }
+
+  .row__medium-4 {
+    float:left;
+    width: 33.3%
+  }
+
+  .row__medium-8 {
+    float:left;
+    width: 66.6%
+  }

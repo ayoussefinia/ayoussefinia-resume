@@ -1,0 +1,39 @@
+.experience {
+
+  margin-top: 0;
+  margin-left: 200px;
+  margin-right: 200px;
+  background: #F4F3ED;
+  box-shadow: 0 12px 80px 0 rgba(50,70, 80,0.5);
+  color: #6C6C71;
+
+
+
+}
+
+.experience-item {
+  border-bottom: 2px solid rgba(96, 96, 96, .5);
+}
+ .experience_job-history {
+   padding-left: 60px;
+   padding-right: 60px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+ }
+
+.experience__resume {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.experience__company{
+  text-align: center;
+}
+
+.experience__dates {
+  text-align: center;
+}
+
+.experience__location {
+  text-align: center;
+}
