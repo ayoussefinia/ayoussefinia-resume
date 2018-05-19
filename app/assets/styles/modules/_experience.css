@@ -21,19 +21,38 @@
    padding-bottom: 40px;
  }
 
+
 .experience__resume {
   margin-left: 50px;
   margin-right: 50px;
 }
 
+.experience__title{
+  text-align: center;
+  font-weight: 400;
+}
+
+
 .experience__company{
   text-align: center;
+  font-weight: 400;
 }
 
 .experience__dates {
   text-align: center;
+  font-size: 1em;
+  font-weight: 400;
 }
 
 .experience__location {
   text-align: center;
+  font-size: 1em;
+  font-weight: 350;
+}
+
+.experience__description {
+margin-left: 50px;
+margin-right: 50px;
+line-height: 1.5;
+font-weight: 350;
 }
