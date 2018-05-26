@@ -1,0 +1,15 @@
+.education {
+  line-height: .5;
+}
+
+.education__school {
+  font-weight: 400;
+}
+
+.education__degree {
+  font-weight: 400;
+}
+
+.education__dates {
+  font-weight: 400;
+}
