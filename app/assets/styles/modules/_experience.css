@@ -30,6 +30,11 @@
 .experience__title{
   text-align: center;
   font-weight: 400;
+  margin-bottom: 0;
+}
+
+.experience__title__first {
+  margin-bottom: 0;
 }
 
 

@@ -3,10 +3,9 @@
     position: relative;
     margin-bottom: 0;
 
-    &__image {
-    display: block;
-  }
-
+}
+.large-hero__image {
+  display: block;
 }
 
 .large-hero__text-content {
