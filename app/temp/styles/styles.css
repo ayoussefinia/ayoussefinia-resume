@@ -467,15 +467,18 @@ ul {
 }
 
 .large-hero {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(250, 250, 250);
     position: relative;
     margin-bottom: 0;
 
 }
-
-.large-hero__image {
+.large-hero_image {
+ opacity: .7;
+}
+/* .large-hero__image {
     display: block;
-  }
+    opacity: .5;
+  } */
 
 .large-hero__text-content {
  text-align: center;
@@ -549,12 +552,12 @@ ul {
 
 .experience__title{
   text-align: center;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .experience__company{
   text-align: center;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .experience__dates {
@@ -582,15 +585,15 @@ font-weight: 350;
 }
 
 .education__school {
-  font-weight: 400;
+  font-weight: 350;
 }
 
 .education__degree {
-  font-weight: 400;
+  font-weight: 350;
 }
 
 .education__dates {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 th, td {
@@ -600,7 +603,7 @@ th, td {
 
 #skills {
   /* margin-top: 50px; */
-  font-weight: 400;
+  font-weight: 300;
   font-family: 'Roboto', sans-serif;
   color: #6C6C71;
   text-align: center;
@@ -777,7 +780,7 @@ th, td {
   #skills-mobile {
     display: flex;
     justify-content: center;
-    font-weight: 400;
+    font-weight: 300;
     font-family: 'Roboto', sans-serif;
     color: #6C6C71;
     text-align: center;
