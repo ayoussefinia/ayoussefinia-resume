@@ -467,7 +467,7 @@ ul {
 }
 
 .large-hero {
-  border-bottom: 10px solid black;
+  border-bottom: 1px solid black;
     position: relative;
     margin-bottom: 0;
 
@@ -511,9 +511,11 @@ ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 6px solid rgba(255, 255, 255, .8);
+  border: 2px solid rgba(255, 255, 255);
   margin-bottom: 0px;
 }
+/* 
+@media() */
 
 .experience {
 
@@ -624,9 +626,15 @@ th, td {
     width: 66.6%
   }
 
+  #skills-mobile {
+    display:none;
+  }
 
 
 @media (max-width: 1100px) {
+  .large-hero__text-content {
+    padding: 0;
+  }
   .resume {
     display: flex;
     justify-content: center;
@@ -641,6 +649,31 @@ th, td {
 } 
 
 @media (max-width: 850px) {
+  .large-hero {
+    border-bottom: 1px solid black;
+  }
+  .profile__picture {
+    width: 30vw;
+     height: 30vw; 
+     border: 2px solid rgb(29, 14, 14);
+  }
+  .large-hero__text-content {
+    top: 20%;
+  }
+
+  .large-hero__title {
+    color: rgb(0, 0, 0);
+    margin: 1rem;
+    font-size: 3.8em;
+    font-weight: 250;
+  }
+  
+  .large-hero__subtitle {
+    color: rgb(0, 0, 0);
+    margin: 1rem;
+    font-size: 2.8em;
+    font-weight: 250;
+  } 
   .resume {
     display: flex;
     justify-content: center;
@@ -674,6 +707,89 @@ th, td {
   }
 
 } 
+
+@media (max-width: 550px) {
+  .experience__title__first {
+    text-align: left;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .experience__title {
+    margin-bottom: 1.5rem;
+  }
+
+
+  .experience_job-history {
+    padding: 1rem;
+  }
+
+  .education {
+    padding: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .education__degree {
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile__picture {
+    width: 35vw;
+     height: 35vw; 
+     border: 1px solid black;
+  }
+  .large-hero__text-content {
+    padding:0;
+    top: 20%;
+    color: rgb(255, 255, 255);
+  }
+   .large-hero__title {
+    margin: 0;
+    font-size: 2.8em;
+    font-weight: 300;
+  }
+  
+  .large-hero__subtitle {
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: 300;
+  } 
+}
+
+@media (max-width: 410px) {
+  .experience__description {
+    margin: 1.5rem;
+  }
+
+  .large-hero__title {
+    margin: 0;
+    font-size: 1.8em;
+
+  }
+  
+  .large-hero__subtitle {
+    margin: 0;
+    font-size: 1.2rem;
+
+  } 
+  #skills-mobile {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #6C6C71;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    /* background: red; */
+  }
+  #skills {
+    display: none;
+  }
+}
+
 /* @media (max-width: 850px) {
   .resume {
     display: flex;
